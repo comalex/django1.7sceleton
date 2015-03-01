@@ -10,3 +10,8 @@ $ pip install -r requirements/local.txt
 $ vi project_name/settings/local_settings.py // Edit database settings.
 $ python manage.py migrate
 ```
+
+Deploy
+```bash
+export SECRET_KEY=YourSecretKey 
+```
